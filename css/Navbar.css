@@ -1,0 +1,148 @@
+/*Desktop View*/
+.header {
+  display: flex;
+  background: var(--blue);
+  /* height: 80px; */
+}
+.logo-text a {
+  color: var(--red) !important;
+  font-size: 26px;
+  font-weight: 700;
+  padding: 0px;
+}
+.logo-text span {
+  color: #49e3ec;
+}
+/* .logo-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 45px;
+  height: 45px;
+} */
+.nav-options {
+  padding-left: 25px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-gap: 50px;
+  list-style-type: none;
+}
+.mobile-option {
+  display: none;
+}
+.option a {
+  color: #fff;
+}
+.option a:hover {
+  color: var(--red);
+}
+.signin-up {
+  display: flex;
+  padding: 0px 5px;
+  list-style-type: none;
+}
+.sign-in {
+  padding-right: 50px;
+  align-self: center;
+}
+.sign-in :hover {
+  color: white;
+}
+
+.mobile-menu {
+  display: none;
+}
+.menu-icon {
+  display: none;
+}
+@media (max-width: 648px) {
+  /*Mobile View */
+  .header {
+    padding: 0px 0px;
+  }
+
+  .nav-options {
+    color: white !important;
+    display: flex;
+    width: 95% !important;
+    height: 300px;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+    flex-direction: column;
+    list-style-type: none;
+    grid-gap: 0px;
+  }
+  .nav-options.active {
+    background: linear-gradient(to right, #7b7bb1, var(--blue));
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+    align-content: center;
+    padding-left: 0px;
+    border-radius: 12px;
+    width: 95%;
+    margin-right: auto;
+    margin-left: 10px;
+  }
+
+  .menu-icon {
+    display: flex;
+    width: 45px;
+    height: 45px;
+  }
+  .option {
+    color: white !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vw;
+    padding: 30px 0px;
+  }
+  .sign-up {
+    background: var(--red);
+    border-radius: 12px;
+    color: white !important;
+    padding: 10px 20px;
+    width: 20%;
+    align-self: center;
+  }
+
+  .signin-up {
+    display: none;
+  }
+}
+.mobile-menu {
+  display: block;
+}
+.img-profile-nav {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.img-profile-nav img {
+  width: 100%;
+  height: auto;
+}
+.sign-out {
+  color: var(--red);
+  font-weight: 700;
+}
+@media (max-width: 448px) {
+  .sign-up {
+    text-align: center;
+    width: 40%;
+  }
+}

@@ -1,0 +1,25 @@
+.bg {
+  background-color: #fff;
+  background-size: cover;
+  background-position: left;
+  height: 550px;
+  display: flex;
+  align-items: center;
+}
+.img-bg {
+  position: absolute;
+  height: 450px;
+  width: 100%;
+}
+.packages {
+  position: relative;
+  top: 80%;
+}
+@media (max-width: 776px) {
+  .bg {
+    background: var(--blue);
+  }
+  .img-bg {
+    display: none;
+  }
+}

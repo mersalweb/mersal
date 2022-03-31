@@ -1,0 +1,16 @@
+.app-section {
+  background: var(--blue);
+  overflow-x: hidden;
+}
+.app-img {
+  height: 480px;
+  width: auto;
+}
+.app-title {
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+.app-download {
+  width: 150px;
+  height: auto;
+}

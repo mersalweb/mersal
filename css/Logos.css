@@ -1,0 +1,27 @@
+.logoSlider__container {
+  background-color: white;
+  height: 430px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.logoSlider__container img {
+  width: 130px;
+  height: auto;
+  transition: transform 0.7s ease-in-out;
+}
+.logoSlider__logo__animation {
+  transition: transform 0.7s ease-in-out;
+  -webkit-transform: rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+@media (max-width: 766px) {
+  .logoSlider__container img {
+    width: 100px;
+    height: auto;
+  }
+}

@@ -1,0 +1,11 @@
+.info-img {
+  width: auto;
+  height: 200px;
+}
+.description {
+  color: black;
+}
+.info-bloc {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}

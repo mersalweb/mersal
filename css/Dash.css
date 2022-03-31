@@ -1,0 +1,105 @@
+.add-card {
+  border-radius: 12px;
+  border: 0;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+  margin-bottom: 30px;
+  margin-top: 30px;
+  height: auto;
+  width: auto;
+  color: black;
+  padding: 20px;
+  cursor: pointer;
+}
+.add-card .fa-cube {
+  color: var(--blue);
+  font-size: 80px;
+  position: relative;
+}
+.add-card .add {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: var(--red);
+  position: absolute;
+  color: #fff;
+  font-size: 22px;
+  top: 55%;
+  right: 37%;
+}
+.user-image {
+  height: 80px;
+  width: auto;
+}
+.email {
+  color: var(--red);
+}
+.breadcrumbs {
+  color: rgb(167, 167, 167);
+}
+.user-icons i {
+  color: black;
+}
+.card-mini {
+  border-radius: 12px;
+  border: 0;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  height: 100%;
+  width: auto;
+}
+.card-dash {
+  border-radius: 12px;
+  border: 0;
+  box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+  height: auto;
+  width: auto;
+}
+.card-dash h4 {
+  font-size: 16px;
+  color: var(--red);
+}
+.card-dash h5 {
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--blue);
+}
+.card-dash h6 {
+  font-size: 12px;
+  color: rgb(179, 179, 179);
+}
+.card-dash p {
+  font-size: 12px;
+}
+.card-dash .fa-cube {
+  font-size: 45px;
+}
+.dash-icons i {
+  font-size: 28px;
+  display: inline-block;
+  background: var(--blue);
+  color: #fff;
+  line-height: 1;
+  padding: 8px 0;
+  margin-right: 4px;
+  border-radius: 12px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  transition: 0.3s;
+}
+/* .chart-bars {
+  height: auto;
+  width: auto;
+} */
+@media (max-width: 767px) {
+  .user-image {
+    padding-left: 12px;
+    height: 50px;
+    width: auto;
+  }
+  .breadcrumbs {
+    font-size: 14px;
+  }
+  .user-icons i {
+    padding-right: 10px;
+  }
+}
